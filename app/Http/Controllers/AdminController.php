@@ -40,7 +40,7 @@ class AdminController extends Controller
     }
 
     public function getSettings() {
-        return;
+        return view('admin.pages.settings');
     }
 
     public function getUserEdit( $id ) {

@@ -45,4 +45,11 @@ Route::prefix('admin')->group(function() {
 /*
  * UserController routes
  */
-Route::get('/user', 'UserController@index')->name('userIndex');
+Route::prefix('user')->group(function() {
+    Route::get('/', 'UserController@getControlPanel')->name('getUserControlPanel');
+    Route::get('/mailbox/{id}', 'UserController@getMailbox')->name('getUserMailbox');
+    Route::get('/add/mailbox', 'UserController@getAddMailbox')->name('getUserAddMailbox');
+    Route::post('/add/mailbox', 'UserController@postAddMailbox')->name('postUserAddMailbox');
+    Route::get('/logout', 'Auth\LoginController@logout')->name('getUserLogout');
+
+});

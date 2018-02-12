@@ -169,6 +169,11 @@ return [
         Laravel\Tinker\TinkerServiceProvider::class,
 
         /*
+         * webklex/laravel-imap
+         */
+        Webklex\IMAP\Providers\LaravelServiceProvider::class,
+
+        /*
          * barryvdh/laravel-ide-helper
          */
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,

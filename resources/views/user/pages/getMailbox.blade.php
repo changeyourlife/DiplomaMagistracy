@@ -11,10 +11,10 @@
         <div class="col-md-10 content">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    Информация
+                    Тут будет вся информация по почтовому ящику <bold>{{ isset($mailbox->username) ? $mailbox->username : '' }}</bold>
                 </div>
                 <div class="panel-body">
-                    Данная панель пользователя позволяет добавлять свои электронные почтовые ящики и работать с ними через почтовый клиент.
+                    Тут будет вся информация по почтовому ящику <bold>{{ isset($mailbox->username) ? $mailbox->username : '' }}</bold>. Пока-что страница в разработке.
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 <!-- Styles -->
 <style>
-    h1.page-header {
+   /* h1.page-header {
         margin-top: -5px;
     }
 
@@ -174,12 +174,12 @@
         padding: 15px 18px;
     }
 
-    /* Main body section */
+    !* Main body section *!
     .side-body {
         margin-left: 310px;
     }
 
-    /* small screen */
+    !* small screen *!
     @media (max-width: 768px) {
         .side-menu {
             position: relative;
@@ -201,7 +201,7 @@
             display: inline-block;
         }
 
-        /* Slide in animation */
+        !* Slide in animation *!
         @-moz-keyframes slidein {
             0% {
                 left: -300px;
@@ -250,8 +250,8 @@
                 left: -300px;
             }
         }
-        /* Slide side menu*/
-        /* Add .absolute-wrapper.slide-in for scrollable menu -> see top comment */
+        !* Slide side menu*!
+        !* Add .absolute-wrapper.slide-in for scrollable menu -> see top comment *!
         .side-menu-container > .navbar-nav.slide-in {
             -moz-animation: slidein 300ms forwards;
             -o-animation: slidein 300ms forwards;
@@ -262,7 +262,7 @@
         }
 
         .side-menu-container > .navbar-nav {
-            /* Add position:absolute for scrollable menu -> see top comment */
+            !* Add position:absolute for scrollable menu -> see top comment *!
             position: fixed;
             left: -300px;
             width: 300px;
@@ -327,7 +327,7 @@
                 left: 0;
             }
         }
-        /* Slide side body*/
+        !* Slide side body*!
         .side-body {
             margin-left: 5px;
             margin-top: 70px;
@@ -349,7 +349,7 @@
             transform-style: preserve-3d;
         }
 
-        /* Hamburger */
+        !* Hamburger *!
         .navbar-toggle-sidebar {
             border: 0;
             float: left;
@@ -359,7 +359,7 @@
             background-color: #f3f3f3;
         }
 
-        /* Search */
+        !* Search *!
         #search .panel-body .navbar-form {
             border-bottom: 0;
         }
@@ -369,15 +369,18 @@
         }
 
         .side-menu .navbar-header {
-            /* this is probably redundant */
+            !* this is probably redundant *!
             position: fixed;
             z-index: 3;
             background-color: #f8f8f8;
         }
 
-        /* Dropdown tweek */
+        !* Dropdown tweek *!
         #dropdown .panel-body .navbar-nav {
             margin: 0;
         }
+    }*/
+    .nav>li>a:focus, .nav>li>a:hover {
+        background-color: #6a8da4;
     }
 </style>

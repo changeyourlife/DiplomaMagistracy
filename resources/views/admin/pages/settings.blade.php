@@ -11,11 +11,10 @@
         <div class="col-md-10 content">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    Информация
+                    Настройки
                 </div>
                 <div class="panel-body">
-                    Данная панель администратора, позволяет создавать пользователей и производить настройку
-                    веб-приложения.
+                    Пока никаких настроек нет. Ведётся разработка...
                 </div>
             </div>
         </div>

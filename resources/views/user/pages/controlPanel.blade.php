@@ -1,24 +1,23 @@
-@extends('admin.layouts.master')
+@extends('user.layouts.master')
 
 @section('title')
-    Администратор | Панель управления
+    Пользователь | Панель управления
 @endsection
 
 @section('content')
-    @include('admin._header')
+    @include('user._header')
     <div class="container-fluid main-container">
-        @include('admin.partials.sidebar')
+        @include('user.partials.sidebar')
         <div class="col-md-10 content">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     Информация
                 </div>
                 <div class="panel-body">
-                    Данная панель администратора, позволяет создавать пользователей и производить настройку
-                    веб-приложения.
+                    Данная панель пользователя позволяет добавлять свои электронные почтовые ящики и работать с ними через почтовый клиент.
                 </div>
             </div>
         </div>
-        @include('admin._footer')
+        @include('user._footer')
     </div>
 @endsection

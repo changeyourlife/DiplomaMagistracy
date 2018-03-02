@@ -10,7 +10,8 @@
                     @if(isset($mailboxes))
                         @if(!is_null($mailboxes))
                             @foreach($mailboxes as $mailbox)
-                                <li><a href="{{ route('getUserMailbox', $mailbox->id) }}">{{ $mailbox->username }}</a>
+                                <li class="itemMail"><a
+                                            href="{{ route('getUserMailbox', $mailbox->id) }}">{{ $mailbox->username }}</a>
                                 </li>
                             @endforeach
                         @else

@@ -39,11 +39,12 @@
         <div class="inner-wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 col-sm-offset-4">
+                    <div class="col-sm-6 col-sm-offset-3">
                         <h2 class="text-center">Добро пожаловать в корпоративный почтовый клиент</h2>
                             {{--<button type="submit" class="btn btn-success btn-block">Страница входа</button>--}}
-                        <a href="{{ route('login') }}" class="btn btn-success">Страница входа</a>
+                        <a href="{{ route('login') }}" class="btn btn-success">Страница входа пользователя</a>
                         <a href="{{ route('about') }}" class="btn btn-default">Что это?</a>
+                        <a href="{{ route('getAdminLogin') }}" class="btn btn-success">Страница входа админа</a>
                     </div>
                 </div>
             </div>

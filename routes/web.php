@@ -48,8 +48,11 @@ Route::prefix('admin')->group(function() {
 Route::prefix('user')->group(function() {
     Route::get('/', 'UserController@getControlPanel')->name('getUserControlPanel');
     Route::get('/mailbox/{id}', 'UserController@getMailbox')->name('getUserMailbox');
+    Route::get('/mailbox/{id}/drop', 'UserController@getDropMailbox')->name('getDropUserMailbox');
+    Route::get('/mailbox/{id}/send/mail', 'UserController@getSendMessage')->name('getSendMessage');
+    Route::get('/mailbox/{id_mailbox}/messages/incoming/{id_message}', 'UserController@getIncomingMessage')->name('getIncomingMessage');
+    Route::get('/mailbox/{id_mailbox}/messages/outgoing/{id_message}', 'UserController@getOutgoingMessage')->name('getOutgoingMessage');
     Route::get('/add/mailbox', 'UserController@getAddMailbox')->name('getUserAddMailbox');
     Route::post('/add/mailbox', 'UserController@postAddMailbox')->name('postUserAddMailbox');
     Route::get('/logout', 'Auth\LoginController@logout')->name('getUserLogout');
-
 });

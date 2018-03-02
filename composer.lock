@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "85afcdacae878191fa5e342ecf9b5bc9",
+    "content-hash": "46f5f37c5f6938e481dee7247db4ca26",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -2132,16 +2132,16 @@
         },
         {
             "name": "webklex/laravel-imap",
-            "version": "1.0.4.0",
+            "version": "1.0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Webklex/laravel-imap.git",
-                "reference": "304bfc17a8839d6a4030635905b4e7da94f58797"
+                "reference": "f300c8506cfffee299683fabead19c1d9dcb99c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Webklex/laravel-imap/zipball/304bfc17a8839d6a4030635905b4e7da94f58797",
-                "reference": "304bfc17a8839d6a4030635905b4e7da94f58797",
+                "url": "https://api.github.com/repos/Webklex/laravel-imap/zipball/f300c8506cfffee299683fabead19c1d9dcb99c4",
+                "reference": "f300c8506cfffee299683fabead19c1d9dcb99c4",
                 "shasum": ""
             },
             "require": {
@@ -2179,7 +2179,7 @@
                 "mail",
                 "webklex"
             ],
-            "time": "2018-01-28T19:04:26+00:00"
+            "time": "2018-02-14T18:09:05+00:00"
         }
     ],
     "packages-dev": [

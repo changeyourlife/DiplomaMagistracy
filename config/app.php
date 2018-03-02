@@ -179,6 +179,11 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
         /*
+         * Webklex/laravel-imap
+         */
+        Webklex\IMAP\Providers\LaravelServiceProvider::class,
+
+        /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
